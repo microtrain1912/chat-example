@@ -19,7 +19,8 @@ io.on('connection', function(socket){
       io.emit('chat message', msg);
     });
   });
-    
+
+//change 3000 to 3001
 http.listen(3001, function(){
     console.log('listening on *:3001');
 });
